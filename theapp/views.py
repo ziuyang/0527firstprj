@@ -10,3 +10,6 @@ def intro(requests):
 
 def photos(requests):
     return render(requests, 'photos.html')
+
+def home(requests):
+    return render(requests, 'home.html')
