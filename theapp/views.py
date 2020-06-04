@@ -11,5 +11,5 @@ def intro(requests):
 def photos(requests):
     return render(requests, 'photos.html')
 
-def home(requests):
-    return render(requests, 'home.html')
+def blog(requests):
+    return render(requests, 'blog.html')
